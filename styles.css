@@ -1,0 +1,112 @@
+/* Shared CSS for Multi-Student Portfolio */
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  background-color: #2b6cb0;
+  /* background-color: #0000ff; */
+  background-color: rgb(100,120,255);
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.profile img.avatar {
+  width: 10vw;
+  height: 23vh;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile .bio {
+  margin-top: 10px;
+  font-size: 1rem;
+}
+.skills {
+  width: 80%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  height: 10vh;
+}
+
+.skills th, .skills td {
+  border: 2px solid #000;
+  padding: 15px 40px;
+}
+
+.skills th {
+  background-color: #2b6cb0;
+  color: white;
+}
+
+.hobbies {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+ul li{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hobbies img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+audio, video {
+  width: 50%;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.social-links li a {
+  text-decoration: none;
+  color: #2b6cb0;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 15px 0;
+  background-color: rgb(100,120,255);
+  margin-top: 20px;
+}
